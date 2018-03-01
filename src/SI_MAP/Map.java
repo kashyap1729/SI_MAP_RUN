@@ -217,7 +217,7 @@ public class Map {
 	    		            
 	    		              p.waitFor();
 	    		      	      File oldfile = new File(path2.toString()+"\\MapTestTxResult.txt");
-	    		      	      File newfile = new File(path2.toString()+"\\"+list2[k].getName().substring(0,list2[k].getName().length()-4)+"_IBMOutput_"+modifiedDate+".txt");
+	    		      	      File newfile = new File(path2.toString()+"\\"+"PTI_"+list2[k].getName().substring(18,list2[k].getName().length()-4)+".xml");
 	    		      	      
 	    		      	      System.out.println(oldfile.toString() +"   "+ newfile.toString());
 	    		      	      
